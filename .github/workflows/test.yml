@@ -1,0 +1,5 @@
+name: Ex2
+
+on:
+  push:
+    branches: [main]
