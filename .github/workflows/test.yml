@@ -1,3 +1,11 @@
+name: Example Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows you to trigger the workflow manually from the UI
+
 jobs:
   example:
     runs-on: ubuntu-latest
